@@ -18,6 +18,8 @@ The different elements represented are known as nodes or network elements and ea
 
 **Service-Based Architecture** 
 
+![](/SBA_5Garchitecture.png)
+
 Instead of nodes or network elements here we call the elements as a network function. In the reference point architecture, we have physical network function and in service-based architecture, we have network function virtualization. This means that the network function can run on a server. So that, they don't need a hardware box to run their devices. It does not contain a unique interface and protocol instead of that, they use web-based interfaces. 
 If we want to create one more network function or instance then it will be easily created or made and communication between the other network function is also provided, which makes it more flexible.
 
@@ -52,6 +54,8 @@ As we discussed previously, the network function has the role of the consumer as
 So, the network function should know about the NRF. The NRF is considered a dictionary because when one network function wants to know something about another network function. They can reach the NRF and get the information. 
 
 **Example: Service Registration**
+
+![](/SBA_ServiceReg.drawio.png)
 
 In this scenario, we have added a new PCF to the network. Now, service registration is performed by using the HTTP PUT command for adding the information to their database. Now the NRF stores the information coming from the PCF. After that, it sends back a response containing information that now, knows where the new PCF is located in the network. 
 
