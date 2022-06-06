@@ -10,6 +10,8 @@ Suppose, if we want to add a few more services. Then these services will be adde
 
 **Reference Point Representation**
 
+![](/SBA_RPA.drawio.png)
+
 The different elements represented are known as nodes or network elements and each node is built as a physical network function. That means they consist of a hardware box and each hardware box represents a particular physical network function to make it run. And they also have a different interface between the nodes. But it is not flexible. Suppose there was some scenario where we need to add one more physical network function then we need to configure the network element connection explicitly and other network elements to make them communicate. And if we create let's say a new instance of an existing network element or node. In that case, also we need to perform configuration over the entire network element. 
 
 
